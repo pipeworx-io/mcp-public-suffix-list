@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-public-suffix-list",
+  "version": "0.1.0",
+  "description": "Mozilla Public Suffix List — eTLD parser (cached 24h)",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "public-suffix-list"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-public-suffix-list"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
