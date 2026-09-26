@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-public-suffix-list",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Public Suffix List MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-9ccbb6b18664869cccac828d09d8d43bd43ec79989968a852f1f72a77f1d8687",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-ccef0a483d6949d6cd372d5d26d1bac15019b9ece32fb7735c08f93296d6a1a4",
+    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
   }
 }
