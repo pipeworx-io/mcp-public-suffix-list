@@ -1,0 +1,55 @@
+[
+  {
+    "name": "parse",
+    "description": "Split a domain into (subdomain, registrable_domain, public_suffix).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "domain": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "domain"
+      ]
+    }
+  },
+  {
+    "name": "public_suffix",
+    "description": "Just the public suffix.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "domain": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "domain"
+      ]
+    }
+  },
+  {
+    "name": "registrable_domain",
+    "description": "Domain + nearest suffix (the \"site\").",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "domain": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "domain"
+      ]
+    }
+  },
+  {
+    "name": "list_version",
+    "description": "Last refresh + rule count.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
